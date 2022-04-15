@@ -1,0 +1,26 @@
+.container {
+  background-color: aquamarine;
+  display: flex;
+  width: 570px;
+  direction: rtl;
+  height: 123px;
+  flex-direction: column;
+
+  .header {
+    height: 48px;
+    width: 570px;
+    background-color: red;
+    font-size: 37px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    color: #333333;
+    span {
+      letter-spacing: 1px;
+      line-height: 48px;
+      text-transform: uppercase;
+    }
+  }
+}

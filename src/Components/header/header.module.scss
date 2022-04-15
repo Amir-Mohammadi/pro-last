@@ -1,0 +1,39 @@
+.container {
+  min-width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+
+  .logo {
+    background-color: #ffffff;
+    height: 80px;
+    width: 284px;
+    margin-top: 10px;
+    margin-right: 15px;
+
+    .svg {
+      width: 200px;
+      height: 60px;
+    }
+  }
+
+  .items {
+    height: 80px;
+    width: 1570px;
+    margin-right: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 35px;
+      font-size: 18px;
+      color: #333333;
+      
+    }
+  }
+}
